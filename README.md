@@ -21,3 +21,7 @@ SECRET_KEY = config('SECRET_KEY')
 ```py
 from django.contrib.auth.models import User
 ```
+- To use images in django, need to install pillow:
+```py
+pip install pillow
+```
