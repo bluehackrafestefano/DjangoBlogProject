@@ -17,3 +17,7 @@ SECRET_KEY = o5o9...
 ```py
 SECRET_KEY = config('SECRET_KEY')
 ```
+- To use admin panel users:
+```py
+from django.contrib.auth.models import User
+```
